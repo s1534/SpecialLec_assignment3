@@ -10,4 +10,4 @@ jogs:
           cd $GITHUB_WORKSPACE
 
       - name: Run Tests
-        run: python -m unittest tests/*.py
+        run: python -m unittest test/*.py
