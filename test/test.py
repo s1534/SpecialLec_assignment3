@@ -1,5 +1,5 @@
 import unittest
-from sample import CSVPrinter
+from speciallecture.sample import CSVPrinter
 
 class TestCSVPrinter(unittest.TestCase):
     def test_read1(self):
