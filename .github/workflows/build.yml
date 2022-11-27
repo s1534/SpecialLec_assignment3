@@ -8,6 +8,5 @@ jobs:
       - name: Install dependencies
         run:
           cd $GITHUB_WORKSPACE
-
       - name: Run Tests
-        run: python -m unittest test.py
+        run: python -m unittest tests/*.py
